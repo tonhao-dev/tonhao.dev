@@ -1,0 +1,283 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #1e1e1e;
+  --primary: #d582ec;
+  --white: #fff;
+  --gray: #abb2bf;
+  --darkness: #282c34;
+  --lighten: #d9d9d9;
+  --background: #282c33;
+  --dark: #1e1e1e;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--dark);
+  font-size: 62.5%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.6rem;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.profile .body {
+  margin-top: 25px;
+}
+
+.name {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: var(--white);
+}
+
+.emphasis {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  color: var(--primary);
+}
+
+.tag {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--primary);
+}
+
+.sub-title {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--primary);
+}
+
+.body {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: var(--white);
+}
+
+.avatar {
+  width: 90%;
+  border-radius: 50%;
+  margin: 40px auto;
+}
+
+.title {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: var(--white);
+  width: 100%;
+  text-align: left;
+}
+
+.title::before {
+  content: "#";
+  color: var(--primary);
+}
+
+.code {
+  border: 1px solid var(--gray);
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.skills .body {
+  line-height: 2.9rem;
+}
+
+.skills .list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: var(--darkness);
+  list-style-type: disc;
+  border-radius: 2px;
+  padding: 2.5rem 5rem;
+}
+
+.list li {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.experiences {
+  width: 100%;
+}
+
+.work-experiences {
+  width: 100%;
+
+  height: auto;
+  list-style-type: ">";
+}
+
+ul.work-experiences > li {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid var(--darkness);
+  margin-top: 2.8rem;
+  padding-bottom: 3rem;
+}
+
+ul.work-experiences li h3 {
+  width: 100%;
+}
+
+ul.work-experiences li .sub-title {
+  color: var(--white);
+  text-decoration: none;
+}
+
+ul.work-experiences li > .body {
+  margin-top: 2.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.experiences .work-experiences span.sub-title {
+  color: var(--gray);
+  margin-top: 1.8rem;
+  text-align: right;
+  display: block;
+  width: 100%;
+}
+
+.projects-list {
+  list-style-type: none;
+}
+
+.projects-list li {
+  margin-bottom: 1.8rem;
+}
+
+.projects-list li img {
+  width: 100%;
+  height: auto;
+}
+
+.projects-list li h4.body {
+  border: 1px solid var(--lighten);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  padding: 4px 14px;
+  margin-bottom: 4px;
+}
+
+.projects-list li article > div {
+  border: 1px solid var(--lighten);
+}
+
+.projects-list li article .tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  border-bottom: 1px solid var(--gray);
+  gap: 10px;
+  padding: 8px 12px;
+}
+
+.projects-list li article > div > div {
+  padding: 18px 12px 24px 12px;
+}
+
+.projects-list a.view-project {
+  padding: 15px 20px;
+  text-decoration: none;
+  border: 1px solid var(--gray);
+  border-radius: 2px;
+  width: fit-content;
+  cursor: pointer;
+  display: block;
+  margin-top: 2.4rem;
+}
+
+.edu .education > li {
+  border-bottom: 2px solid var(--darkness);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.edu .education li .sub-title {
+  color: var(--white);
+  margin-top: 2px;
+}
+
+.edu .education li .keywords {
+  border-left: 2px solid var(--primary);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 4rem;
+  margin-top: 2.3rem;
+}
+
+.edu .education li .keywords li {
+  width: 100%;
+  color: var(--gray);
+}
+
+.edu .education > li span.sub-title {
+  width: 100%;
+  display: block;
+  text-align: right;
+  color: var(--gray);
+  margin-top: 2.2rem;
+}
+
+footer {
+  padding: 26px;
+  width: 100%;
+  background-color: var(--background);
+}
+
+footer .copyright {
+  width: 100%;
+  margin: 4rem auto;
+}
+
+footer .body {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+footer .copy {
+  text-align: center;
+  color: var(--gray);
+}
