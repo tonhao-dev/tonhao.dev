@@ -46,6 +46,10 @@ section {
   margin-bottom: 100px;
 }
 
+section h1:not(.name) {
+  margin-bottom: 2rem;
+}
+
 .name {
   font-family: "Fira Code";
   font-weight: 500;
@@ -161,8 +165,11 @@ ul.work-experiences > li {
   width: 100%;
   height: auto;
   border-bottom: 2px solid var(--darkness);
-  margin-top: 2.8rem;
   padding-bottom: 3rem;
+}
+
+ul.work-experiences > li:not(:last-child) {
+  margin-bottom: 2.8rem;
 }
 
 ul.work-experiences li h3 {
@@ -239,8 +246,11 @@ ul.work-experiences li > .body {
 
 .edu .education > li {
   border-bottom: 2px solid var(--darkness);
-  padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.edu .education > li:not(:last-child) {
+  margin-bottom: 3rem;
 }
 
 .edu .education li .sub-title {
