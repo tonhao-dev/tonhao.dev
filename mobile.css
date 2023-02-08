@@ -50,6 +50,10 @@ section h1:not(.name) {
   margin-bottom: 2rem;
 }
 
+strong {
+  color: var(--primary);
+}
+
 .name {
   font-family: "Fira Code";
   font-weight: 500;
