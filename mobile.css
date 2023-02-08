@@ -29,12 +29,13 @@ body {
 }
 
 main {
+  max-width: 1024px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 0px 2rem;
 }
 
@@ -190,16 +191,16 @@ ul.work-experiences li > .body {
   list-style-type: none;
 }
 
-.projects-list li {
+.projects-list > li {
   margin-bottom: 1.8rem;
 }
 
-.projects-list li img {
+.projects-list > li img {
   width: 100%;
   height: auto;
 }
 
-.projects-list li h4.body {
+.projects-list > li h4.body {
   border: 1px solid var(--lighten);
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -207,11 +208,11 @@ ul.work-experiences li > .body {
   margin-bottom: 4px;
 }
 
-.projects-list li article > div {
+.projects-list > li article > div {
   border: 1px solid var(--lighten);
 }
 
-.projects-list li article .tags {
+.projects-list > li article .tags {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -221,7 +222,7 @@ ul.work-experiences li > .body {
   padding: 8px 12px;
 }
 
-.projects-list li article > div > div {
+.projects-list > li article > div > div {
   padding: 18px 12px 24px 12px;
 }
 
