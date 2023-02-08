@@ -102,6 +102,8 @@ strong {
   width: 90%;
   border-radius: 50%;
   flex-shrink: 0;
+  width: 25rem;
+  height: 25rem;
 }
 
 .title {
@@ -207,8 +209,8 @@ ul.work-experiences li > .body {
 }
 
 .projects-list > li img {
-  width: 100%;
-  height: auto;
+  width: 373px;
+  height: 220px;
 }
 
 .projects-list > li h4.body {

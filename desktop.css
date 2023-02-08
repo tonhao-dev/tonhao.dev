@@ -1,9 +1,4 @@
 @media screen and (min-width: 425px) {
-  .profile .avatar {
-    width: 25rem;
-    height: 25rem;
-  }
-
   .profile .content {
     display: flex;
     align-items: flex-start;
