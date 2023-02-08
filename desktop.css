@@ -16,7 +16,8 @@
 
   .projects .projects-list > li {
     height: 56rem;
-    max-width: 300px;
+    width: 100%;
+    max-width: 50rem;
   }
 
   .projects .projects-list > li article > div > img {
@@ -37,5 +38,28 @@
 @media screen and (min-width: 600px) {
   .skills .list {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 755px) {
+  .projects .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projects .projects-list > li {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .projects .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .projects .projects-list > li {
+    width: 100%;
+    max-width: 34rem;
   }
 }
