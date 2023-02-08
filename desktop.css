@@ -16,7 +16,7 @@
 
   .projects .projects-list > li {
     height: 56rem;
-    max-width: 375px;
+    max-width: 300px;
   }
 
   .projects .projects-list > li article > div > img {
@@ -30,7 +30,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 22rem;
+    height: 25rem;
   }
 }
 
