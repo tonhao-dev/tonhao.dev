@@ -1,0 +1,46 @@
+@media screen and (min-width: 425px) {
+  .profile .avatar {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .profile .content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .projects .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .projects .projects-list > li {
+    height: 56rem;
+    max-width: 375px;
+  }
+
+  .projects .projects-list > li article > div > img {
+    width: 100%;
+    object-fit: cover;
+    height: 22rem;
+  }
+
+  .projects .projects-list > li article > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 22rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .skills .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
