@@ -98,6 +98,21 @@ strong {
   margin-top: 2.6rem;
 }
 
+.content .social-media {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.content .social-media li i {
+  font-size: 3.4rem;
+  color: var(--white);
+}
+
 .avatar {
   width: 90%;
   border-radius: 50%;
