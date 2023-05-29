@@ -23,7 +23,8 @@
   .projects .projects-list > li article > div > img {
     width: 100%;
     object-fit: cover;
-    height: 22rem;
+    object-position: center;
+    height: 17rem;
   }
 
   .projects .projects-list > li article > div > div {

@@ -230,8 +230,9 @@ ul.work-experiences li > .body {
 
 .projects-list > li img {
   width: 100%;
-  height: 220px;
   object-fit: cover;
+  object-position: center;
+  height: 16rem;
 }
 
 .projects-list > li h4.body {
