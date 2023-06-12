@@ -272,6 +272,15 @@ ul.work-experiences li > .body {
   margin-top: 2.4rem;
 }
 
+.projects-list a:hover {
+  transition: 0.5s ease-in-out;
+  background-color: var(--primary);
+}
+
+.edu .education {
+  list-style-type: none;
+}
+
 .edu .education > li {
   border-bottom: 2px solid var(--darkness);
   padding-bottom: 3rem;
