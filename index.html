@@ -19,6 +19,10 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ipxllwbpfa");
   </script>
+  <script
+    src="https://js.sentry-cdn.com/574c22758996282164a3a8499822d163.min.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 
 <body>
@@ -268,6 +272,18 @@
       <p class="body copy">Feito por Tonhão Dev</p>
     </div>
   </footer>
+
+  <script>
+    Sentry.onLoad(function() {
+      Sentry.init({
+        sampleRate: 0.5,
+      });
+    });
+  </script>
+
+  <script>
+    myUndefinedFunction();
+  </script>
 </body>
 
 </html>
