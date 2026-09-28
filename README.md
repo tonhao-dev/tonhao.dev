@@ -66,4 +66,4 @@ O site integra:
 
 ---
 
-© 2023 — Feito por Tonhão Dev
+© 2026 — Feito por Tonhão Dev
