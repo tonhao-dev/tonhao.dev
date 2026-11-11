@@ -3,3 +3,9 @@
   to = "https://tonhaodev.notion.site/2026-Capoeira-Curso-de-Especializa-o-Tarefas-3e97ef11c4558092b6f6ca384d9db2d7?source=copy_link"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/livros"
+  to = "https://tonhaodev.notion.site/Recomenda-es-de-conte-dos-4157ef11c45580b090f0cbdba96b7923?source=copy_link"
+  status = 301
+  force = true
