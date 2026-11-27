@@ -9,3 +9,9 @@
   to = "https://tonhaodev.notion.site/Recomenda-es-de-conte-dos-4157ef11c45580b090f0cbdba96b7923?source=copy_link"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/roteiro"
+  to = "https://tonhaodev.notion.site/Testes-automatizados-como-guardrails-no-desenvolvimento-assistido-por-IA-Ufac-4257ef11c4558043aa1de1720c5a9c66"
+  status = 301
+  force = true
